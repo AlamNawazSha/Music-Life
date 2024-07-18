@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+<!--<TextView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="50dp"-->
+<!--    android:text="@string/set_theme"-->
+<!--    android:background="@color/white"-->
+<!--    android:textSize="18sp"-->
+<!--    android:gravity="center"-->
+<!--    android:textColor="@color/black"-->
+<!--    android:layout_marginTop="2dp"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:background="@color/white"-->
+<!--        android:layout_marginVertical="2dp">-->
+
+<!--        <com.google.android.material.imageview.ShapeableImageView-->
+<!--            android:id="@+id/cool_pink_theme"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/baseline_circle_24"-->
+<!--            android:tint="@color/cool_Pink"/>-->
+<!--        <com.google.android.material.imageview.ShapeableImageView-->
+<!--            android:id="@+id/cool_blue_theme"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/baseline_circle_24"-->
+<!--            android:tint="@color/background"/>-->
+<!--        <com.google.android.material.imageview.ShapeableImageView-->
+<!--            android:id="@+id/cool_purple_theme"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/baseline_circle_24"-->
+<!--            android:tint="@color/cool_purple"/>-->
+<!--        <com.google.android.material.imageview.ShapeableImageView-->
+<!--            android:id="@+id/cool_green_theme"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/baseline_circle_24"-->
+<!--            android:tint="@color/cool_green"/>-->
+<!--        <com.google.android.material.imageview.ShapeableImageView-->
+<!--        android:id="@+id/cool_black_theme"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:src="@drawable/baseline_circle_24"-->
+<!--        android:tint="@color/black"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginVertical="5dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:paddingHorizontal="16dp">-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/sort_by"-->
+<!--            android:background="@color/white"-->
+<!--            android:textSize="18sp"-->
+<!--            android:gravity="start|center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:paddingStart="5dp"/>-->
+<!--        <com.google.android.material.imageview.ShapeableImageView-->
+<!--            android:id="@+id/sort_song"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:src="@drawable/sort_icon"-->
+<!--            android:tint="@color/background"-->
+<!--            android:padding="5dp"/>-->
+<!--    </LinearLayout>-->
+
+
+
+    <TextView
+        android:id="@+id/version_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/version_name"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+       />
+</LinearLayout>

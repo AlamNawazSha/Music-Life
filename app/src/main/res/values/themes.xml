@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MusicLife" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.MusicLife" parent="Theme.Material3.DayNight">
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+    <style name="Splash.MusicLife"  parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/background</item>
+    </style>
+</resources>

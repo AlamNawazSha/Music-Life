@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FeedBack"
+    android:layout_margin="16dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/topi"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/topic"
+        android:gravity="center|start"
+        android:inputType="textEmailSubject"
+        android:paddingHorizontal="16dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:gravity="center|start"
+        android:paddingHorizontal="16dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:hint="@string/feedback"
+        android:gravity="start|center_horizontal"
+        android:paddingHorizontal="16dp"/>
+<Button
+    android:id="@+id/sen_feedback"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/background"
+    android:text="@string/send"
+    android:layout_gravity="center"
+    android:textColor="@color/black"
+    android:layout_margin="10dp"/>
+</LinearLayout>
